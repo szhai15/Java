@@ -10,7 +10,6 @@ public class GradesStatistics {
 	public static void main(String[] args) {
 		readGrades();
 		System.out.println("The average is " + average());
-//		System.out.println("The median is " + median();
 		System.out.println("The minimum is " + min());
 		System.out.println("The maximum is " + max());
 		System.out.println("The standard deviation is " + stdDev());
