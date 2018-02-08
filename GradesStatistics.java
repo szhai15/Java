@@ -9,6 +9,7 @@ public class GradesStatistics {
 
 	public static void main(String[] args) {
 		readGrades();
+		printArray(grades);
 		System.out.println("The average is " + average());
 		System.out.println("The minimum is " + min());
 		System.out.println("The maximum is " + max());
@@ -39,7 +40,11 @@ public class GradesStatistics {
 			}
 		}
 	}
-
+	
+	public static void printArray(int[] grades) 
+	{
+	      System.out.println(Arrays.toString(grades));
+	}
 	
 	public static double average()
 	{
