@@ -66,5 +66,4 @@ public class MainClass {
 		(polygon).sides();
 		polygon.interior_angles();
 	}
-
 }
