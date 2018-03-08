@@ -25,7 +25,7 @@ public class Recursion {
 		else
 		{
 			sum = sum + b % 10;
-//			b = b / 10;
+			b = b / 10;
 			return sumDigits(b/10, sum);
 		}
 	}
@@ -39,8 +39,6 @@ public class Recursion {
 		}
 		
 		System.out.println("\nThe sum of digits of 2435313 is " + sumDigits(2435313, 0));
-		
-
 	}
 
 }
