@@ -1,3 +1,13 @@
+// Ex: The Circle and Cylinder Classes
+// This exercise shall guide you through the important concepts in inheritance.
+/*In this exercise, a subclass called Cylinder is derived from the superclass Circle as shown in the class diagram 
+  (where an an arrow pointing up from the subclass to its superclass). 
+  Study how the subclass Cylinder invokes the superclass' constructors (via super() and super(radius)) 
+  and inherits the variables and methods from the superclass Circle. 
+  You can reuse the Circle class that you have created in the previous exercise. 
+  Make sure that you keep "Circle.class" in the same directory.
+*/
+
 public class Circle {
 	private double radius;
 	private String color;
@@ -57,7 +67,7 @@ public class Cylinder extends Circle {
 		return getArea() * height;
 	}
 	
-//	Method override
+//	Method overriding 
 	public String toString() {
 		String result = super.toString() 
 				+ "\nvolume :" + this.getVolume();
