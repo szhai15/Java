@@ -67,6 +67,7 @@ public class Laptop extends Computer {
 	}
 	
 	public Laptop(String processor, int ram, int disk, double screen, double wei) {
+		// method overriding
 		this(DEFAULT_LT_MAN, processor, ram, disk, screen, wei);
 	}
 	
