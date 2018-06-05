@@ -22,8 +22,6 @@ public class Hangman
 		String[] words = new String[lines.size()];
 		lines.toArray(words);
 		
-//		System.out.println(lines);
-//		String[] words = {"terminator", "banana", "computer", "friday", "rain", "stream" };
 		String word = words[(int) (Math.random() * words.length)];;
 		int life = 7;
 		guess(word, life);
